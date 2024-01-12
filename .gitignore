@@ -1,0 +1,13 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/LCVR-Controller-Profiles/FileContentIndex
+/.vs/LCVR-Controller-Profiles/FileContentIndex/0682f736-98e0-4659-8e3e-1af7055fe588.vsidx
+/.vs/LCVR-Controller-Profiles/FileContentIndex/3d78688e-4ef7-4303-b3ac-59376f999d56.vsidx
+/.vs/LCVR-Controller-Profiles/FileContentIndex/a23116ad-71a0-40d2-ad79-d0a749317e49.vsidx
+/.vs/LCVR-Controller-Profiles/FileContentIndex/b30d39f5-9252-449e-8d6c-5c1478379657.vsidx
+/.vs/LCVR-Controller-Profiles/FileContentIndex/fc02e482-3f87-41fb-bcc0-5fa95f3e6f4d.vsidx
+/quest2
+/quest2/Binding_Maps.afdesign
+/.vs/slnx.sqlite
