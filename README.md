@@ -13,6 +13,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `wmr`             | @CH3k                                    | This just adds support for WMR remotes, jump is bound to right touchpad, Drop Item is bound to left touchpad         |
 | `index_touchpads` | [@Bontebok](https://github.com/Bontebok) | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.   |
 | `htc_vive`        | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                 |
+| `alt_quest_layout`| [@B4bbel](https://github.com/B4bbel)     | This changes the layout from the ground up with Quest 2 controllers in mind. Check folder description for bindings   |
 
 # Applying a custom profile
 
