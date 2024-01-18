@@ -284,9 +284,9 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Open menu: Hold Menu Button",
+          "name": "Open menu: Hold Left Primary Button",
           "id": "b73f442d-bbd4-45ad-87d5-34cba090fa9b",
-          "path": "<XRController>{LeftHand}/menu",
+          "path": "<XRController>{LeftHand}/primaryButton",
           "interactions": "Hold(duration=1)",
           "processors": "",
           "groups": "",
@@ -361,9 +361,9 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Ping Scan: Left Menu Button Tap",
+          "name": "Ping Scan: Left Primary Button Tap",
           "id": "82b7c0d0-3d7c-4b80-acf2-17e66cf5b3ac",
-          "path": "<XRController>{LeftHand}/menu",
+          "path": "<XRController>{LeftHand}/primaryButton",
           "interactions": "",
           "processors": "",
           "groups": "",
