@@ -19,7 +19,7 @@
           "type": "Value",
           "id": "1af759ec-380d-4f9b-9108-c4e024e17c3e",
           "expectedControlType": "Vector2",
-          "processors": "StickDeadzone(min=0.3,max=1)",
+          "processors": "StickDeadzone(min=0.3,max=0.5)",
           "interactions": "",
           "initialStateCheck": true
         },
@@ -251,9 +251,9 @@
       ],
       "bindings": [
         {
-          "name": "Movement: Left Joystick",
+          "name": "Movement: Left Touchpad",
           "id": "efe1ca7a-482c-4dfb-b80b-a34166b2cc7d",
-          "path": "<XRController>{LeftHand}/Primary2DAxis",
+          "path": "<XRController>{LeftHand}/Primary2DAxisClick",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -262,10 +262,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Jump: A",
+          "name": "Jump: Left Trigger Button Tap",
           "id": "29d0e539-abdc-46ae-8dff-27436261f379",
-          "path": "<XRController>{RightHand}/primaryButton",
-          "interactions": "",
+          "path": "<XRController>{RightHand}/triggerButton",
+          "interactions": "Tap(duration=0.2)",
           "processors": "",
           "groups": "",
           "action": "Jump",
@@ -273,10 +273,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Sprint: Left Joystick Click",
+          "name": "Sprint: Left Grip Button Hold",
           "id": "c243b846-2159-41a2-87d5-5a36f89e70da",
-          "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
-          "interactions": "",
+          "path": "<XRController>{LeftHand}/gripButton",
+          "interactions": "Hold(duration=0.5)",
           "processors": "",
           "groups": "",
           "action": "Sprint",
@@ -284,10 +284,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Open menu: X",
+          "name": "Open menu: Hold Menu Button",
           "id": "b73f442d-bbd4-45ad-87d5-34cba090fa9b",
-          "path": "<XRController>{LeftHand}/primaryButton",
-          "interactions": "",
+          "path": "<XRController>{LeftHand}/menu",
+          "interactions": "Hold(duration=1)",
           "processors": "",
           "groups": "",
           "action": "OpenMenu",
@@ -306,10 +306,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Crouch: Right Joystick Click",
+          "name": "Crouch: Left Grip Button Tap",
           "id": "e3c54809-7fb3-4bc6-9aed-40a36b018c06",
-          "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
-          "interactions": "",
+          "path": "<XRController>{LeftHand}/gripButton",
+          "interactions": "Tap(duration=0.2)",
           "processors": "",
           "groups": "",
           "action": "Crouch",
@@ -317,10 +317,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Use: Right Trigger",
+          "name": "Use: Right Trigger Tap",
           "id": "73118618-851a-4995-8aae-3848f6f81ab5",
           "path": "<XRController>{RightHand}/trigger",
-          "interactions": "",
+          "interactions": "Tap(duration=0.2)",
           "processors": "",
           "groups": "",
           "action": "Use",
@@ -339,10 +339,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Discard: B",
+          "name": "Discard: Right Grip Button Hold",
           "id": "99c75319-4397-4e28-9316-fedfd1c63c1c",
           "path": "<XRController>{RightHand}/secondaryButton",
-          "interactions": "",
+          "interactions": "Hold(duration=0.5)",
           "processors": "",
           "groups": "",
           "action": "Discard",
@@ -352,7 +352,7 @@
         {
           "name": "Switch Item: Right Joystick Y",
           "id": "2d8f3396-cbb0-401e-8751-38cc079ff90e",
-          "path": "<XRController>{RightHand}/primary2DAxis/y",
+          "path": "<XRController>{RightHand}/primary2DAxisClick/y",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -361,9 +361,9 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Ping Scan: Left Trigger Button",
+          "name": "Ping Scan: Left Menu Button Tap",
           "id": "82b7c0d0-3d7c-4b80-acf2-17e66cf5b3ac",
-          "path": "<XRController>{LeftHand}/trigger",
+          "path": "<XRController>{LeftHand}/menu",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -372,10 +372,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Secondary Use: Left Grip Button",
+          "name": "Secondary Use: Right Trigger Hold",
           "id": "98208326-0c62-44ca-8a9c-7d2040e8ef05",
-          "path": "<XRController>{LeftHand}/gripButton",
-          "interactions": "",
+          "path": "<XRController>{RightHand}/gripButton",
+          "interactions": "Hold(duration=0.5)",
           "processors": "",
           "groups": "",
           "action": "ItemSecondaryUse",
@@ -393,7 +393,6 @@
           "isComposite": false,
           "isPartOfComposite": false
         },
-
         {
           "name": "",
           "id": "7aea34a9-040b-4a60-b98a-ef8cb75e8ccf",
