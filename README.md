@@ -16,7 +16,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `crouch_switch`             | @LilBean64                               | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller |
 | `wmr_rebound_jump_and_drop` | @Collin8000                              | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2                                |
 | `quest_ptt`                 | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'      |
-| `htc_vive_alt`              | [@FloofyBoof](https://github.com/FloofyBoof) | Uses tap and hold inputs to combine multiple actions to the same buttons. (e.g. Grab: R Grip Tap, Drop item: R Grip Hold)      |
+| `htc_vive_alt`              | [@FloofyBoof](https://github.com/FloofyBoof) | Uses tap and hold inputs to combine multiple actions to the same button. (e.g. Ping and Open Menu share the left menu button)  |
 
 # Applying a custom profile
 
