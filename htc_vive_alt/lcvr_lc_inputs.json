@@ -253,7 +253,7 @@
         {
           "name": "Movement: Left Touchpad",
           "id": "efe1ca7a-482c-4dfb-b80b-a34166b2cc7d",
-          "path": "<XRController>{LeftHand}/Primary2DAxisClick",
+          "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -264,7 +264,7 @@
         {
           "name": "Jump: Left Trigger Button Tap",
           "id": "29d0e539-abdc-46ae-8dff-27436261f379",
-          "path": "<XRController>{RightHand}/triggerButton",
+          "path": "<XRController>{LeftHand}/trigger",
           "interactions": "Tap(duration=0.5)",
           "processors": "",
           "groups": "",
@@ -273,10 +273,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Sprint: Left Grip Button Hold",
+          "name": "Sprint: Left Grip Button",
           "id": "c243b846-2159-41a2-87d5-5a36f89e70da",
           "path": "<XRController>{LeftHand}/gripButton",
-          "interactions": "Hold(duration=0.5)",
+          "interactions": "",
           "processors": "",
           "groups": "",
           "action": "Sprint",
@@ -306,10 +306,10 @@
           "isPartOfComposite": false
         },
         {
-          "name": "Crouch: Left Grip Button Tap",
+          "name": "Crouch: Left Trigger Button Hold",
           "id": "e3c54809-7fb3-4bc6-9aed-40a36b018c06",
-          "path": "<XRController>{LeftHand}/gripButton",
-          "interactions": "Tap(duration=0.5)",
+          "path": "<XRController>{LeftHand}/trigger",
+          "interactions": "Hold(duration=0.5)",
           "processors": "",
           "groups": "",
           "action": "Crouch",

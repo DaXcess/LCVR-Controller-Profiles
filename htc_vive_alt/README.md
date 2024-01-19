@@ -10,7 +10,7 @@
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                      |
 |     OpenMenu     | Escape, Tab      | L Primary Button (Hold) | Does not work with SteamVR                                          |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                      |
-|      Crouch      | Ctrl             | L Grip (Hold)     |                                                                     |
+|      Crouch      | Ctrl             | L Trigger (Hold)     |                                                                     |
 |       Use        | LMB              | R Trigger         |                                                                     |
 |   ActivateItem   | LMB              | R Trigger         |                                                                     |
 |     Discard      | G                | R Grip (Hold)     |                                                                     |
@@ -40,4 +40,4 @@
 |     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
 |     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
 |    Pivot     | R Joystick        | Spectator camera pivoting                                                               |
-|    Sprint    | L Grip (Hold)     | Must either be held down or toggles based on the configuration that is used             |
+|    Sprint    | L Grip            | Must either be held down or toggles based on the configuration that is used             |

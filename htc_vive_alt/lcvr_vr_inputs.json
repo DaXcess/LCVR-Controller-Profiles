@@ -301,7 +301,7 @@
         {
           "name": "",
           "id": "c39025cf-5de2-4790-9d7a-8618b1e97743",
-          "path": "<XRController>{RightHand}/primary2DAxisClick/x",
+          "path": "<XRController>{RightHand}/{Primary2DAxisClick}/x",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -312,7 +312,7 @@
         {
           "name": "",
           "id": "654fc1be-7486-4b83-ab97-1a3fcc3cdb60",
-          "path": "<XRController>{RightHand}/primary2DAxisClick",
+          "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -324,7 +324,7 @@
           "name": "",
           "id": "91f06119-90cf-47d2-af1f-d646743ba392",
           "path": "<XRController>{LeftHand}/gripButton",
-          "interactions": "Hold(duration=0.5)",
+          "interactions": "",
           "processors": "",
           "groups": "",
           "action": "Sprint",
