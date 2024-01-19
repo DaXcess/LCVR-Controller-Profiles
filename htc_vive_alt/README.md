@@ -5,19 +5,19 @@
 |      Action      | PC               | VR                | Notes                                                               |
 | :--------------: | ---------------- | ----------------- | ------------------------------------------------------------------- |
 |       Look       | Mouse Movement   | HMD               | Will use right joystick X for snap-turning                          |
-|       Move       | WASD, Arrow Keys | Left Touchpad     |                                                                     |
-|       Jump       | Space            | L Trigger (Tap)   |                                                                     |
+|       Move       | WASD, Arrow Keys | L Touchpad        |                                                                     |
+|       Jump       | Space            | L Trigger         |                                                                     |
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                      |
-|     OpenMenu     | Escape, Tab      | L Primary Button (Hold) | Does not work with SteamVR                                          |
+|     OpenMenu     | Escape, Tab      | L Menu Button (Hold) | Hold button for 1 second                                            |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                      |
-|      Crouch      | Ctrl             | L Trigger (Hold)     |                                                                     |
+|      Crouch      | Ctrl             | L Grip (Hold)     |                                                                     |
 |       Use        | LMB              | R Trigger         |                                                                     |
 |   ActivateItem   | LMB              | R Trigger         |                                                                     |
-|     Discard      | G                | R Grip (Hold)     |                                                                     |
-|    SwitchItem    | ScrollY          | R Touchpad Y      | Its expecting an axis so this should be fine                        |
-| ItemSecondaryUse | Q                | R Trigger (Hold)  |                                                                     |
+|     Discard      | G                | R Menu Button (Hold) | Hold button for half a second                                    |
+|    SwitchItem    | ScrollY          | R Touchpad Y      | Press up or down on touchpad                                        |
+| ItemSecondaryUse | Q                | L Grip Button     |                                                                     |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                     |
-|     PingScan     | RMB              | Left Trigger      |                                                                     |
+|     PingScan     | RMB              | L Menu Button     |                                                                     |
 |  QEItemInteract  | Q, E             | (Disabled)        | Depricated since V45, Use secondary and tertiary use instead        |
 |    EnableChat    | Slash            | (Disabled)        | Chat is just not something we want to do in VR                      |
 |    SubmitChat    | Enter            | (Disabled)        | Chat is just not something we want to do in VR                      |
@@ -36,8 +36,8 @@
 
 |    Action    | Bind              | Notes                                                                                   |
 | :----------: | ----------------- | --------------------------------------------------------------------------------------- |
-| Reset Height | R Primary Button (Hold) | Recalculates the offset between your headset and the floor                              |
+| Reset Height | R Menu Button (Hold) | Hold button for 2 seconds. Recalculates the offset between your headset and the floor |
 |     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
 |     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
 |    Pivot     | R Joystick        | Spectator camera pivoting                                                               |
-|    Sprint    | L Grip            | Must either be held down or toggles based on the configuration that is used             |
+|    Sprint    | L Touchpad Press  | Must either be held down or toggles based on the configuration that is used             |
