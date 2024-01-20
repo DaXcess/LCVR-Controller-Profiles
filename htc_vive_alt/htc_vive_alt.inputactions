@@ -1452,17 +1452,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "9e8d3334-e14b-416c-9c88-3e74233ec010",
-                    "path": "<XRController>{RightHand}/primary2DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pivot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "Right Touchpad",
                     "id": "2e797085-464e-4318-8d2b-228678b7733f",
                     "path": "OneModifier",
