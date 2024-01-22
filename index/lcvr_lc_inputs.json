@@ -297,7 +297,7 @@
         {
           "name": "Use: Right Trigger",
           "id": "73118618-851a-4995-8aae-3848f6f81ab5",
-          "path": "<XRController>{RightHand}/trigger",
+          "path": "<Gamepad>/rightTrigger",
           "interactions": "",
           "processors": "",
           "groups": "",
@@ -308,7 +308,7 @@
         {
           "name": "Activate Item: Right Trigger",
           "id": "15a2f703-29f3-46b5-a1d0-508a159aad30",
-          "path": "<XRController>{RightHand}/trigger",
+          "path": "<Gamepad>/rightTrigger",
           "interactions": "",
           "processors": "",
           "groups": "",
