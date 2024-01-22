@@ -45,6 +45,7 @@
 ## Diff with `default`
 
 > Last updated: **22 Jan 2024**
+
 `$ diff -u default/profile.inputactions index/profile.inputactions`
 ```diff
 --- default/profile.inputactions        2024-01-22 18:40:34.850776800 +0100
