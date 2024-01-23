@@ -54,17 +54,6 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<XRController>{LeftHand}/secondaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Reset Height",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
                     "path": "<XRController>{RightHand}/gripButton",
                     "interactions": "",
@@ -104,6 +93,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Open menu: X",
+                    "id": "96d6d2a4-4fae-43a5-bd05-ab66f21e3a99",
+                    "path": "<XRController>{RightHand}/Menu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Height",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -492,28 +492,6 @@
                 },
                 {
                     "name": "",
-                    "id": "6ed322cb-9b3b-45b0-939c-907a7b190589",
-                    "path": "<XRController>{RightHand}/primaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ConfirmBuildMode",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "72ea56f3-4c07-4d5b-abdd-16e7dbab7764",
-                    "path": "<XRController>{RightHand}/secondaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Delete",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "7874f5cf-0442-4d12-adb6-b060f69d3541",
                     "path": "<XRController>{RightHand}/primary2DAxisTouch",
                     "interactions": "",
@@ -533,6 +511,50 @@
                     "action": "Discard",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2322b4b-963d-46d9-8c49-f41cbae20da2",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ConfirmBuildMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "f9268c7b-6680-4f47-b760-9ec8f3445925",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "13255bcd-6229-4358-a687-b4e941775a79",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "03acde6f-7a17-4fb2-baab-038330f90ce7",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
