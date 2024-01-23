@@ -297,7 +297,7 @@
                 {
                     "name": "Use: Right Trigger",
                     "id": "6527e10c-1acf-410f-b439-7e2db96bf25d",
-                    "path": "<XRController>{RightHand}/triggerButton",
+                    "path": "<XRController>{RightHand}/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -308,7 +308,7 @@
                 {
                     "name": "Activate Item: Right Trigger",
                     "id": "6d80dd41-4bf1-4581-bf98-839b02e7219b",
-                    "path": "<XRController>{RightHand}/triggerButton",
+                    "path": "<XRController>{RightHand}/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
