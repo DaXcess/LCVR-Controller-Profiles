@@ -1,4 +1,4 @@
-# Default Controller Profile
+# WMR Controller Bindings
 
 ## LC Controls
 
@@ -6,20 +6,20 @@
 | :--------------: | ---------------- | ----------------- | ----------------------------------------------------------------- |
 |       Look       | Mouse Movement   | HMD               | Will use right joystick X for snap-turning                        |
 |       Move       | WASD, Arrow Keys | Left Joystick     |                                                                   |
-|       Jump       | Space            | A                 |                                                                   |
+|       Jump       | Space            | Right D-pad       |                                                                   |
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
 |     OpenMenu     | Escape, Tab      | X                 |                                                                   |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
-|      Crouch      | Ctrl             | R Joystick Button |                                                                   |
+|      Crouch      | Ctrl             | R Joystick Click  |                                                                   |
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
-|     Discard      | G                | B                 |                                                                   |
+|     Discard      | G                | Left D-pad        |                                                                   |
 |    SwitchItem    | ScrollY          | Right joystick Y  |                                                                   |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                   |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                   |
 |     PingScan     | RMB              | Left Trigger      |                                                                   |
 |    BuildMode     | B                | L Grip + R Grip   | Press both buttons simultaneously to go into build mode           |
-|      Delete      | X                | B                 |                                                                   |
+|      Delete      | X                | L + R Trigger     |                                                                   |
 |  QEItemInteract  | Q, E             | (Disabled)        | Depricated since V45, Use secondary and tertiary use instead      |
 |    EnableChat    | Slash            | (Disabled)        | Chat is just not something we want to do in VR                    |
 |    SubmitChat    | Enter            | (Disabled)        | Chat is just not something we want to do in VR                    |
@@ -36,8 +36,8 @@
 
 |    Action    | Bind              | Notes                                                                                   |
 | :----------: | ----------------- | --------------------------------------------------------------------------------------- |
-| Reset Height | Y                 | Recalculates the offset between your headset and the floor                              |
+| Reset Height | R Menu Button     | Recalculates the offset between your headset and the floor                              |
 |     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
 |     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
 |    Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
-|    Sprint    | L Joystick Button | Must either be held down or toggles based on the configuration that is used             |
+|    Sprint    | L Joystick Click  | Must either be held down or toggles based on the configuration that is used             |
