@@ -8,7 +8,7 @@
 |       Move       | WASD, Arrow Keys | Left Joystick     |                                                                   |
 |       Jump       | Space            | Right D-pad       |                                                                   |
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
-|     OpenMenu     | Escape, Tab      | X                 |                                                                   |
+|     OpenMenu     | Escape, Tab      | L Menu Button     |                                                                   |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
 |      Crouch      | Ctrl             | R Joystick Click  |                                                                   |
 |       Use        | LMB              | Right trigger     |                                                                   |
