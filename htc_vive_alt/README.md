@@ -8,12 +8,12 @@
 |       Move       | WASD, Arrow Keys | L Touchpad        |                                                                     |
 |       Jump       | Space            | L Trigger         |                                                                     |
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                      |
-|     OpenMenu     | Escape, Tab      | L Menu Button (Hold) | Hold button for 1 second                                            |
+|     OpenMenu     | Escape, Tab      | L Menu Button (Hold) | Hold button for 1 second                                         |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                      |
 |      Crouch      | Ctrl             | L Grip (Hold)     |                                                                     |
 |       Use        | LMB              | R Trigger         |                                                                     |
 |   ActivateItem   | LMB              | R Trigger         |                                                                     |
-|     Discard      | G                | R Menu Button (Hold) | Hold button for half a second                                    |
+|     Discard      | G                | R Menu Button     |                                                                     |
 |    SwitchItem    | ScrollY          | R Touchpad Y      | Press up or down on touchpad                                        |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                     |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                     |
@@ -26,9 +26,9 @@
 |   VoiceButton    | T                | (Disabled)        | IDK arbitary push to talk is not very favorable in VR               |
 |      Emote1      | 1                | (Disabled)        | Will not bother adding this into VR                                 |
 |      Emote2      | 2                | (Disabled)        | Will not bother adding this into VR                                 |
-|    BuildMode     | B                | (Disabled)        | If we don't have enough buttons on VR controllers, disable this     |
-| ConfirmBuildMode | V                | (Disabled)        | If we don't have enough buttons on VR controllers, disable this     |
-|      Delete      | X                | (Disabled)        | If we don't have enough buttons on VR controllers, disable this     |
+|    BuildMode     | B                | L+R Grip (Hold)   | Hold both grip buttons together                                     |
+| ConfirmBuildMode | V                | L+R Grip          | Press grip buttons together                                         |
+|      Delete      | X                | R Menu Button (Hold) |                                                                  |
 |  SetFreeCamera   | C                | (Disabled)        | Most likely a developer only cheat                                  |
 |    SpeedCheat    | H                | (Disabled)        | Most likely a developer only cheat                                  |
 
@@ -38,6 +38,6 @@
 | :----------: | ----------------- | --------------------------------------------------------------------------------------- |
 | Reset Height | R Menu Button (Hold) | Hold button for 2 seconds. Recalculates the offset between your headset and the floor |
 |     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
-|     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
-|    Pivot     | R Joystick        | Spectator camera pivoting                                                               |
+|     Turn     | R Touchpad X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
+|    Pivot     | R Touchpad        | Spectator camera pivoting                                                               |
 |    Sprint    | L Touchpad Press  | Must either be held down or toggles based on the configuration that is used             |
