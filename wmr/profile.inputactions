@@ -133,12 +133,12 @@
                 },
                 {
                     "name": "Jump",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "29820219-83ac-41cb-9f43-9ba2bcb7882c",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Sprint",
@@ -196,12 +196,12 @@
                 },
                 {
                     "name": "Discard",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "a4608dd4-03c1-4f59-94e2-84a333a9981b",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "SwitchItem",
@@ -366,17 +366,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Jump: A",
-                    "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/Secondary2DAxisTouch",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -555,6 +544,17 @@
                     "action": "Delete",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "Jump: A",
+                    "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
+                    "path": "<XRController>{RightHand}/Secondary2DAxisTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
