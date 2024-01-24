@@ -1,5 +1,5 @@
 {
-    "name": "DefaultInputs",
+    "name": "profile",
     "maps": [
         {
             "name": "Controls",
@@ -370,9 +370,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Jump: A",
+                    "name": "Jump: B",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/primaryButton",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -381,9 +381,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Open menu: X",
+                    "name": "Open menu: Menu Button",
                     "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "path": "<XRController>{LeftHand}/menuButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -392,9 +392,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Crouch: Right Joystick Click",
+                    "name": "Crouch: A",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
+                    "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -425,9 +425,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Discard: B",
+                    "name": "Discard: Right Joystick Click",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -533,6 +533,72 @@
                     "action": "Delete",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "97d74957-85e8-42d6-bbd5-15c349372bd1",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote1",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "b655a037-91c1-4405-a989-d746bb3cbf7b",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "e5c3034a-9877-4286-8398-8a23b06b1503",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote1",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "63ef4bbc-5c0f-4a70-8c88-69e141733a30",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "deef6cfe-6298-48fd-adb1-a438ae82f92d",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "093c6875-2484-4621-90e0-3e520547bac7",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },

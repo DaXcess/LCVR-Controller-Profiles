@@ -1,5 +1,5 @@
 {
-    "name": "DefaultInputs",
+    "name": "profile",
     "maps": [
         {
             "name": "Controls",
@@ -372,7 +372,7 @@
                 {
                     "name": "Jump: A",
                     "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/primaryButton",
+                    "path": "<XRController>{RightHand}/primary2DAxis/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -383,7 +383,7 @@
                 {
                     "name": "Open menu: X",
                     "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -427,7 +427,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -436,15 +436,37 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Switch Item: Right Joystick Y",
-                    "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<XRController>{RightHand}/primary2DAxis/y",
+                    "name": "1D Axis",
+                    "id": "4e15da26-ab8a-4c9b-abc3-9a60e8d9dc2b",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchItem",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "cf6b23df-d842-4f99-bb64-a94be89dace3",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "9230da5b-c228-4578-829b-a9a1d30a6127",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchItem",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "Ping Scan: Left Trigger Button",
