@@ -1,4 +1,4 @@
-# WMR Controller Bindings
+# Reverb G2 Controller Bindings
 
 ## LC Controls
 
