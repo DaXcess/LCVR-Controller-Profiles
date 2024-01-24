@@ -6,20 +6,20 @@
 | :--------------: | ---------------- | ----------------- | ----------------------------------------------------------------- |
 |       Look       | Mouse Movement   | HMD               | Will use right joystick X for snap-turning                        |
 |       Move       | WASD, Arrow Keys | Left Joystick     |                                                                   |
-|       Jump       | Space            | Right D-pad       |                                                                   |
+|       Jump       | Space            | A Button          |                                                                   |
 |      Sprint      | Shift            | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
 |     OpenMenu     | Escape, Tab      | L Menu Button     |                                                                   |
 |     Interact     | E                | (Disabled)        | Taken over by the mod, check `VR Inputs` below                    |
 |      Crouch      | Ctrl             | R Joystick Click  |                                                                   |
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
-|     Discard      | G                | Left D-pad        |                                                                   |
+|     Discard      | G                | X Button          |                                                                   |
 |    SwitchItem    | ScrollY          | Right joystick Y  |                                                                   |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                   |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                   |
 |     PingScan     | RMB              | Left Trigger      |                                                                   |
-|    BuildMode     | B                | L Grip + R Grip   | Press both buttons simultaneously to go into build mode           |
-|      Delete      | X                | L + R Trigger     |                                                                   |
+|    BuildMode     | B                | Y Button          | Press both buttons simultaneously to go into build mode           |
+|      Delete      | X                | B Button          |                                                                   |
 |  QEItemInteract  | Q, E             | (Disabled)        | Depricated since V45, Use secondary and tertiary use instead      |
 |    EnableChat    | Slash            | (Disabled)        | Chat is just not something we want to do in VR                    |
 |    SubmitChat    | Enter            | (Disabled)        | Chat is just not something we want to do in VR                    |
