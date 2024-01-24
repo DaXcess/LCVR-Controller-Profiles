@@ -416,7 +416,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{RightHand}/secondary2DAxisTouch",
+                    "path": "<XRController>{LeftHand}/secondary2DAxisTouch",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
