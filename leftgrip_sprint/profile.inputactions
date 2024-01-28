@@ -55,7 +55,7 @@
                 {
                     "name": "",
                     "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<XRController>{RightHand}/Menu",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -97,9 +97,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
-                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "name": "Secondary Use: Left Grip Button",
+                    "id": "8fa541c6-c22c-442f-b747-1903cf0aedfb",
+                    "path": "<XRController>{LeftHand}/gripButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -370,9 +370,20 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "Jump: A",
+                    "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "Open menu: X",
                     "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
-                    "path": "<XRController>{LeftHand}/Menu",
+                    "path": "<XRController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -416,7 +427,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{LeftHand}/touchpadClicked",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -443,17 +454,6 @@
                     "processors": "AxisDeadzone(min=0.75,max=1)",
                     "groups": "",
                     "action": "PingScan",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Secondary Use: Left Grip Button",
-                    "id": "6dc32574-fab3-4107-b005-12d695167d5d",
-                    "path": "<XRController>{LeftHand}/gripButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ItemSecondaryUse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -513,46 +513,24 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "One Modifier",
-                    "id": "41f505e0-3fd9-464c-9786-711d26c381e1",
-                    "path": "OneModifier",
+                    "name": "",
+                    "id": "72ea56f3-4c07-4d5b-abdd-16e7dbab7764",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Delete",
-                    "isComposite": true,
+                    "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "modifier",
-                    "id": "ce24e50e-7281-4ca8-bed0-c5a68fde97ca",
-                    "path": "<XRController>{LeftHand}/TriggerButton",
+                    "name": "",
+                    "id": "cf814d7a-e9e2-4fa5-a6d4-e1d67594b38e",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Delete",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "binding",
-                    "id": "a3c82252-54fe-4cfd-8202-207869b72ec4",
-                    "path": "<XRController>{RightHand}/TriggerButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Delete",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "Jump: A",
-                    "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/touchpadClicked",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
+                    "action": "ItemSecondaryUse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

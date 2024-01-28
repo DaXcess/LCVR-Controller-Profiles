@@ -1,114 +1,6 @@
 {
-    "name": "profile",
+    "name": "DefaultInputs",
     "maps": [
-        {
-            "name": "Controls",
-            "id": "80e5e9eb-ce0b-4a64-851a-3ac2d9638118",
-            "actions": [
-                {
-                    "name": "Reset Height",
-                    "type": "Button",
-                    "id": "b2ec8a93-37f0-4385-9b52-c9003309f1af",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Interact",
-                    "type": "Button",
-                    "id": "765099c4-7c97-45b9-849b-1b8e5e6dd641",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Turn",
-                    "type": "Value",
-                    "id": "ac8cad95-23ff-4fde-9385-b25d7b04b868",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Pivot",
-                    "type": "Value",
-                    "id": "f028cb64-a3f7-4101-90d4-30cc1fb73592",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Sprint",
-                    "type": "Button",
-                    "id": "8131f75e-cf47-4787-bd52-07dd45d7e2eb",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<XRController>{RightHand}/Menu",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Reset Height",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
-                    "path": "<XRController>{RightHand}/gripButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
-                    "path": "<XRController>{RightHand}/primary2DAxis/x",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Turn",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
-                    "path": "<XRController>{RightHand}/primary2DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pivot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
-                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Sprint",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
         {
             "name": "Movement",
             "id": "1560e87b-23aa-4005-bf8b-264f6a3c3736",
@@ -370,9 +262,20 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Open menu: X",
+                    "name": "Jump: A",
+                    "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Open menu: Menu Button",
                     "id": "4a6410db-2cd4-464a-bb05-be48a800d455",
-                    "path": "<XRController>{LeftHand}/Menu",
+                    "path": "<XRController>{LeftHand}/menuButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -416,7 +319,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{LeftHand}/touchpadClicked",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -513,48 +416,81 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "One Modifier",
-                    "id": "41f505e0-3fd9-464c-9786-711d26c381e1",
-                    "path": "OneModifier",
+                    "name": "",
+                    "id": "72ea56f3-4c07-4d5b-abdd-16e7dbab7764",
+                    "path": "<XRController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "97d74957-85e8-42d6-bbd5-15c349372bd1",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote1",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "modifier",
-                    "id": "ce24e50e-7281-4ca8-bed0-c5a68fde97ca",
-                    "path": "<XRController>{LeftHand}/TriggerButton",
+                    "id": "b655a037-91c1-4405-a989-d746bb3cbf7b",
+                    "path": "<XRController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Delete",
+                    "action": "Emote1",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "binding",
-                    "id": "a3c82252-54fe-4cfd-8202-207869b72ec4",
-                    "path": "<XRController>{RightHand}/TriggerButton",
+                    "id": "e5c3034a-9877-4286-8398-8a23b06b1503",
+                    "path": "<XRController>{RightHand}/gripButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Delete",
+                    "action": "Emote1",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Jump: A",
-                    "id": "a1d21d3b-acc2-4d51-ba3c-0dc272230ab9",
-                    "path": "<XRController>{RightHand}/touchpadClicked",
+                    "name": "One Modifier",
+                    "id": "63ef4bbc-5c0f-4a70-8c88-69e141733a30",
+                    "path": "OneModifier",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
+                    "action": "Emote2",
+                    "isComposite": true,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "deef6cfe-6298-48fd-adb1-a438ae82f92d",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "093c6875-2484-4621-90e0-3e520547bac7",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Emote2",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         },
@@ -915,6 +851,114 @@
                     "processors": "",
                     "groups": "",
                     "action": "Others",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Controls",
+            "id": "80e5e9eb-ce0b-4a64-851a-3ac2d9638118",
+            "actions": [
+                {
+                    "name": "Reset Height",
+                    "type": "Button",
+                    "id": "b2ec8a93-37f0-4385-9b52-c9003309f1af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "765099c4-7c97-45b9-849b-1b8e5e6dd641",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Turn",
+                    "type": "Value",
+                    "id": "ac8cad95-23ff-4fde-9385-b25d7b04b868",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Pivot",
+                    "type": "Value",
+                    "id": "f028cb64-a3f7-4101-90d4-30cc1fb73592",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "8131f75e-cf47-4787-bd52-07dd45d7e2eb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset Height",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
+                    "path": "<XRController>{RightHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f31de753-e706-4d98-8ef0-e06dba97bbc7",
+                    "path": "<XRController>{RightHand}/primary2DAxis/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a16f20c-9b10-42ba-b176-8c6bdfbebef5",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pivot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
