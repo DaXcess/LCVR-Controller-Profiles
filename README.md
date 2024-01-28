@@ -6,20 +6,34 @@ This repo contains a list of input binding overrides that can be used to make di
 
 > These controller profiles are not provided by the developer of LCVR (except for the `default` profile), so it is not guaranteed that they work properly for every user
 
+<<<<<<< HEAD
+| Name                                       | Author                                   | Comment                                                                                                                            |
+| ------------------------------------------ | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `default`                                  | [@DaXcess](https://github.com/DaXcess)   | These are the default controller bindings that are included with the LCVR mod                                                      |
+| `leftgrip_sprint` _(DEPRECATED)_           | @dzgreka                                 | This derivative of the default profile swaps the secondary use, and sprint button                                                  |
+| `wmr` _(DEPRECATED)_                       | @CH3k                                    | This just adds support for WMR remotes, jump is bound to right touchpad, Drop Item is bound to left touchpad                       |
+| `index_touchpads` _(DEPRECATED)_           | [@Bontebok](https://github.com/Bontebok) | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                 |
+| `htc_vive` _(DEPRECATED)_                  | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                               |
+| `crouch_switch`                            | @LilBean64(https://github.com/LilBean64) | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller. Also adds binds for emotes.|
+| `default_emotes`                           | @LilBean64(https://github.com/LilBean64) |This is basically just the default controls with emote bindings. Menu is the menu button on the left controller  |
+| `wmr_rebound_jump_and_drop` _(DEPRECATED)_ | @Collin8000                              | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2                                |
+| `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'      |
+=======
 | Name                                       | Author(s)                                | Comment                                                                                                                                                         |
 | ------------------------------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `default`                                  | [@DaXcess](https://github.com/DaXcess)   | These are the default controller bindings that are included with the LCVR mod                                                                                   |
 | `index`                                    | [@Phil25](https://github.com/Phil25)     | Default controller bindings with Index-specific right trigger                                                                                                   |
+| `htc_vive`                                 | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                                                            |
 | `wmr`                                      | @CH3k (pre 1.1.0), @danielallencoates    | Adds support for WMR remotes                                                                                                                                    |
 | `index_gripforce`                          | @QuietFlair                              | This makes it so you have to grip hard to interact with things. Probably only works if you are using the Knuckles                                               |
 | `crouch_switch`                            | @LilBean64(https://github.com/LilBean64) | This switches a couple controls, jump is secondary button, crouch is primary button, drop is joystick button, all right controller. Also adds binds for emotes.|
 | `default_emotes`                           | @LilBean64(https://github.com/LilBean64) |This is basically just the default controls with emote bindings. Menu is the menu button on the left controller  |
 | `joystick_jump`                            | @hmcl9                                   | This binds jumping to the right joystick Y-axis, and moves item swapping to A and B for forwards and backwards respectively                                     |
-| `leftgrip_sprint` _(DEPRECATED)_           | @dzgreka                                 | This derivative of the default profile swaps the secondary use, and sprint button                                                                               |
+| `leftgrip_sprint`                          | @dzgreka                                 | This derivative of the default profile swaps the secondary use, and sprint button                                                                               |
 | `index_touchpads` _(DEPRECATED)_           | [@Bontebok](https://github.com/Bontebok) | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                                              |
-| `htc_vive` _(DEPRECATED)_                  | @KYRIS0                                  | This adds support for vive controller, jump is bound to left trigger                                                                                            |
-| `wmr_rebound_jump_and_drop` _(DEPRECATED)_ | @Collin8000                              | This switches two controls, jump is now bound to "A" and drop is bound to "B" Use with HP Reverb G2                                                             |
+| `reverb_g2`                                | @Collin8000 @danielallencoates           | Adds support fot the HP Reverb G2 controllers by rebinding several functions to A, B, X, and Y                                                                  |
 | `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                 | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'                                   |
+>>>>>>> a15d31ecd74b49a82eee962473ef5516b7939f4e
 
 > ⚠️ _(DEPRECATED)_ profiles are not (yet) compatible with the LCVR 1.1.0 update! They will only work on LCVR 1.0.0 and 1.0.1!
 
