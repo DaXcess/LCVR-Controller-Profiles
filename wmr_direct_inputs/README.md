@@ -1,4 +1,4 @@
-# WMR Controller Bindings
+# WMR Controller Bindings (Direct)
 
 ## LC Controls
 
