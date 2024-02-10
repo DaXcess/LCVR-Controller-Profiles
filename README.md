@@ -24,6 +24,7 @@ This repo contains a list of input binding overrides that can be used to make di
 | `leftgrip_sprint`                          | @dzgreka                                     | This derivative of the default profile swaps the secondary use, and sprint button                                                                               |
 | `index_touchpads`                          | [@Bontebok](https://github.com/Bontebok) (pre 1.1.0), @Coomquat     | For Index controllers, prevents joystick damage. Sprint left grip, crouch left touchpad, secondary right touchpad.                       |
 | `quest_ptt` _(DEPRECATED)_                 | @Vrgamez                                     | Adds push to talk functionality for quest 3. Remaps in-game menu to left controller menu button and assigns ptt button to 'X'                                   |
+| `alternate_oculus2`                 |      | @myramagic                                   | Alternate input controls for the Oculus Quest 2
 
 
 > ⚠️ _(DEPRECATED)_ profiles are not (yet) compatible with the LCVR 1.1.0 update! They will only work on LCVR 1.0.0 and 1.0.1!
