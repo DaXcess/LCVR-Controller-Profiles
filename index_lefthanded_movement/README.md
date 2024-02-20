@@ -14,7 +14,7 @@
 |       Use        | LMB              | Right trigger     |                                                                   |
 |   ActivateItem   | LMB              | Right trigger     |                                                                   |
 |     Discard      | G                | B                 |                                                                   |
-|    SwitchItem    | ScrollY          | Right joystick Y  |                                                                   |
+|    SwitchItem    | ScrollY          | Left joystick Y   |                                                                   |
 | ItemSecondaryUse | Q                | L Grip Button     |                                                                   |
 | ItemTertiaryUse  | E                | R Grip Button     |                                                                   |
 |     PingScan     | RMB              | Left Trigger      |                                                                   |
