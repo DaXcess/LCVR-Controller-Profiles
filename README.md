@@ -1,7 +1,7 @@
 # LCVR Controller Profiles
 
 > [!WARNING]
-> This repository is deprecated, and the functionality for controller profiles will be removed in a future LCVR update
+> This repository is deprecated, please use the built in keybind options to change controls for Lethal Company VR
 
 This repo contains a list of input binding overrides that can be used to make different kind of controllers work correctly with the [Lethal Company VR mod](https://github.com/DaXcess/LCVR).
 
